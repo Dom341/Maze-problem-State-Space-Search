@@ -1,26 +1,4 @@
-;;;;
-;;;; COSC 270 Project 2
-;;;; Name: Josh Kang
-;;;; E-mail Address: jk1591
-;;;; Platform: Linux
-;;;; Lisp Environment: clisp
-;;;;
-;;;; In accordance with the class policies and Georgetown's Honor Code,
-;;;; I certify that, with the exceptions of the course materials and those
-;;;; items noted below, I have neither given nor received any assistance
-;;;; on this project.
-;;;;
-;;;;a = avg number of nodes entered
-;;;;b = avg number of nodes expanded
-;;;;c = avg number of nodes maintained
-;;;;d = avg number of times it found optimum
-;;;;
-;;;;bfs - a.267  b.1377.25  c.413  d.0 
-;;;;ucs - a. 250.25  b.787.5   c.249.25  d.1
-;;;;gbfs - a.226.5  b.954  c.  d.0      
-;;;;a* - a.267  b.826  c.266  d.1
-;;;;
-;;;;
+;;;;Author: Josh Kang
 
 ;;;loads the maze from text file
 (defun load-maze-problem (fname)
